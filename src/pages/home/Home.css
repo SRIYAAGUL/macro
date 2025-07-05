@@ -1,0 +1,215 @@
+#overlay_card {
+  background-color: #f9f9f9;
+}
+
+/* ✅ Extra Small Phones: <480px */
+@media (max-width: 479px) {
+  #overlay_card {
+    background: rgba(0, 0, 0, 0.205);
+    backdrop-filter: blur(3px);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.052);
+    color: white;
+  }
+
+  #font_h4 {
+    font-family: 'Base Neue Trial', serif;
+    font-size: 22px;
+  }
+
+  #font_p {
+    font-size: 12px;
+  }
+
+  #font_icon_card {
+    font-size: 12px;
+  }
+
+  #row2_tail1 {
+    font-family: 'Base Neue Trial', serif;
+    font-size: 24px;
+  }
+    #Macro_head {
+    font-family: 'Base Neue Trial', serif;
+    font-size: 50px;
+    color: #ff630f;
+  }
+}
+
+/* ✅ Small Phones: 480px - 767px */
+@media (min-width: 480px) and (max-width: 767px) {
+  #font_h4 {
+    font-family: 'Base Neue Trial', serif;
+    font-size: 25px;
+  }
+
+  #font_p {
+    font-size: 14px;
+  }
+
+  #font_icon_card {
+    font-size: 14px;
+  }
+
+  #overlay_card {
+    background: rgba(0, 0, 0, 0.205);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    color: white;
+  }
+
+  #row2_tail1 {
+    font-family: 'Base Neue Trial', serif;
+    font-size: 28px;
+  }
+  #Macro_head {
+    font-family: 'Base Neue Trial', serif;
+    font-size: 110px;
+    color: #ff630f;
+  }
+  
+}
+
+/* ✅ Tablets: 768px - 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+  #font_h4 {
+    font-family: 'Base Neue Trial', serif;
+    font-size: 35px;
+  }
+
+  #font_p {
+    font-size: 15px;
+  }
+
+  #font_icon_card {
+    font-size: 13px;
+  }
+
+  #row2_tail1 {
+    font-family: 'Base Neue Trial', serif;
+    font-size: 32px;
+  }
+  #Macro_head {
+    font-family: 'Base Neue Trial', serif;
+    font-size: 150px;
+    color: #ff630f;
+  }
+}
+
+/* ✅ Laptops: 1024px - 1279px */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  #font_h4 {
+    font-family: 'Base Neue Trial', serif;
+    font-size: 50px;
+  }
+
+  #font_p {
+    font-size: 16px;
+  }
+
+  #font_icon_card {
+    font-size: 16px;
+  }
+
+  #row2_tail1 {
+    font-family: 'Base Neue Trial', serif;
+    font-size: 36px;
+  }
+  #Macro_head {
+    font-family: 'Base Neue Trial', serif;
+    font-size: 230px;
+    color: #ff630f;
+  }
+}
+
+/* ✅ Desktops: 1280px - 1439px */
+@media (min-width: 1280px) and (max-width: 1439px) {
+  #font_h4 {
+    font-family: 'Base Neue Trial', serif;
+    font-size: 55px;
+  }
+
+  #font_p {
+    font-size: 18px;
+  }
+
+  #font_icon_card {
+    font-size: 18px;
+  }
+
+  #row2_tail1 {
+    font-family: 'Base Neue Trial', serif;
+    font-size: 40px;
+  }
+  #Macro_head
+{
+  font-family: 'Base Neue Trial', serif;
+  font-size: 250px;
+  color: #ff630f;
+}
+}
+
+/* ✅ Large Screens: ≥1440px */
+@media (min-width: 1440px) {
+  #font_h4 {
+    font-family: 'Base Neue Trial', serif;
+    font-size: 70px;
+  }
+
+  #font_p {
+    font-size: 20px;
+  }
+
+  #font_icon_card {
+    font-size: 20px;
+  }
+
+  #row2_tail1 {
+    font-family: 'Base Neue Trial', serif;
+    font-size: 50px;
+  }
+
+  #Macro_head {
+    font-family: 'Base Neue Trial', serif;
+    font-size: 265px;
+    color: #ff630f;
+  }
+}
+
+.custom-label {
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.custom-input {
+  border: none;
+  border-bottom: 2px solid #444;
+  border-radius: 6px;
+  box-shadow: none;
+  padding-left: 0;
+  padding-right: 0;
+  background-color: #f9f9f9;
+}
+
+.custom-input:focus {
+  border-color: #ff630f;
+  box-shadow: none;
+}
+
+.custom-submit-btn {
+  background-color: transparent;
+  border: 1px solid #ff630f;
+  color: #ff630f;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.custom-submit-btn:hover {
+  background-color: #ff630f;
+  color: #fff;
+}
